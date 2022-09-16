@@ -1,3 +1,5 @@
+@media screen and (min-width: 990px) {
+    
 .card:hover {
     transform: scale(1.1) translateY(-30px);
     transition: 0.5s;
@@ -16,4 +18,5 @@
 .videos:hover {
     transform: scale(1.2) translateY(-10px);
     transition: 0.5s;
+}
 }

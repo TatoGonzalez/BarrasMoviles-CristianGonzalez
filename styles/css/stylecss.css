@@ -64,21 +64,19 @@ button a {
     -webkit-transform: translateX(8px) translateY(-8px);
     transform: translateX(8px) translateY(-8px); } }
 
-.card:hover {
-  transform: scale(1.1) translateY(-30px);
-  transition: 0.5s; }
-
-.redes__hover:hover {
-  transform: scale(1.2);
-  transition: 0.5s; }
-
-.fotos:hover {
-  transform: scale(1.3) translateY(-10px);
-  transition: 0.5s; }
-
-.videos:hover {
-  transform: scale(1.2) translateY(-10px);
-  transition: 0.5s; }
+@media screen and (min-width: 990px) {
+  .card:hover {
+    transform: scale(1.1) translateY(-30px);
+    transition: 0.5s; }
+  .redes__hover:hover {
+    transform: scale(1.2);
+    transition: 0.5s; }
+  .fotos:hover {
+    transform: scale(1.3) translateY(-10px);
+    transition: 0.5s; }
+  .videos:hover {
+    transform: scale(1.2) translateY(-10px);
+    transition: 0.5s; } }
 
 body {
   background-color: rgba(173, 216, 230, 0.3); }
